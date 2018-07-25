@@ -19,6 +19,26 @@ https://www.schoolofnet.com/curso-css-basico/
 
 ## <a name="parte1">Introdução</a>
 
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 style="color:red">Sou título principal</h1>
+        <p style="color: dodgerblue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, felis vel ultricies facilisis, elit justo commodo
+            diam, accumsan eleifend massa arcu et nulla. Integer facilisis dolor eget imperdiet commodo. Ut eu porta risus. Quisque
+            sit amet gravida justo. Nunc luctus scelerisque erat at vestibulum. Integer posuere sem sed lorem cursus eleifend. Phasellus
+            in congue urna, in rhoncus elit. In ullamcorper justo nec lacus condimentum, at placerat nisl venenatis. Quisque et diam
+            sapien. Etiam consectetur commodo sapien. Praesent condimentum eget massa sed hendrerit. Nulla facilisi.</p>
+
+    </body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
