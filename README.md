@@ -179,6 +179,28 @@ https://www.schoolofnet.com/curso-css-basico/
 
 ## <a name="parte4">Seletores dentro de seletores e display</a>
 
+```css
+
+        .nav ul li{
+            display: inline-block;
+        }
+
+        nav ul{
+            padding: 0;
+        }
+```
+
+```html
+<nav class="nav">
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Sobre Nós</a></li>
+        <li><a href="">Produtos</a></li>
+        <li><a href="">Contato</a></li>
+    </ul>
+</nav>
+```
+
 
 [Voltar ao Índice](#indice)
 
