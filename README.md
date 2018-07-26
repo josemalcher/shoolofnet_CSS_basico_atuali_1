@@ -275,6 +275,67 @@ https://www.schoolofnet.com/curso-css-basico/
 
 ## <a name="parte7">Trabalhando com botões</a>
 
+```css
+
+        .btn {
+            border-style: solid;
+            border-top-width: 2px;
+            border-bottom-width: 4px;
+            border-left-width: 2px;
+            border-right-width: 4px;
+            color: white;
+            cursor: pointer;
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+        .btn-red {
+            background-color: red;
+            border-color: darkred;
+        }
+
+        .btn-red:hover {
+            background-color: indianred;
+            border-color: red;
+        }
+
+        .btn-blue {
+            background-color: dodgerblue;
+            border-color: deepskyblue;
+        }
+
+        .btn-blue:hover {
+            background-color: lightskyblue;
+            border: 3px solid;
+            border-color: cornflowerblue;
+        }
+
+```
+
+```html
+
+<nav class="nav">
+    <ul>
+        <li><a href="" class="btn btn-red">Home</a></li>
+        <li><a href="" class="btn btn-red">Sobre Nós</a></li>
+        <li><a href="" class="btn btn-red">Produtos</a></li>
+        <li><a href="" class="btn btn-red">Contato</a></li>
+    </ul>
+</nav>
+
+<form action="">
+    <input type="text" placeholder="campo tipo texto">
+    <input type="email" placeholder="campo tipo email">
+    <input type="number" placeholder="campo tipo numer">
+    <input type="date" placeholder="campo tipo data">
+    <button class="btn btn-blue">Salvar</button>
+</form>
+
+
+```
 
 [Voltar ao Índice](#indice)
 

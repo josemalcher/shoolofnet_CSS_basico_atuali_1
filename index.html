@@ -6,9 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        *{
+        * {
             box-sizing: border-box; /* reset */
         }
+
         p {
             color: green;
         }
@@ -25,45 +26,75 @@
             color: red;
         }
 
-        .nav ul li{
+        .nav ul li {
             display: inline-block;
         }
-        .nav ul li a{
-            background-color: red;
-            border: 3px solid darkred;
-            color: white;
-            padding: 10px;
-            margin: 10px;
-            display: inline-block;
-            text-decoration: none;
-        }
-        .nav ul li a:hover{
+
+        .nav ul li a:hover {
             background-color: indianred;
             border: 3px solid red;
         }
 
-        nav ul{
+        nav ul {
             padding: 0;
         }
 
-        form{
+        form {
             border: dashed 2px green;
             padding: 20px;
         }
-        input{
+
+        input {
             display: block;
             width: 100%;
             margin: 0 0 10px 0;
             border: 1px solid #abc;
         }
 
+        .btn {
+            border-style: solid;
+            border-top-width: 2px;
+            border-bottom-width: 4px;
+            border-left-width: 2px;
+            border-right-width: 4px;
+            color: white;
+            cursor: pointer;
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+        .btn-red {
+            background-color: red;
+            border-color: darkred;
+        }
+
+        .btn-red:hover {
+            background-color: indianred;
+            border-color: red;
+        }
+
+        .btn-blue {
+            background-color: dodgerblue;
+            border-color: deepskyblue;
+        }
+
+        .btn-blue:hover {
+            background-color: lightskyblue;
+            border: 3px solid;
+            border-color: cornflowerblue;
+        }
+
     </style>
 </head>
 
 <body>
-<h1 >Sou título principal</h1>
+<h1>Sou título principal</h1>
 
-<p class="yellow" id="red">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, felis vel ultricies
+<p class="yellow" id="red">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, felis vel
+    ultricies
     facilisis, elit
     justo
     hendrerit.
@@ -86,10 +117,10 @@
 
 <nav class="nav">
     <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Sobre Nós</a></li>
-        <li><a href="">Produtos</a></li>
-        <li><a href="">Contato</a></li>
+        <li><a href="" class="btn btn-red">Home</a></li>
+        <li><a href="" class="btn btn-red">Sobre Nós</a></li>
+        <li><a href="" class="btn btn-red">Produtos</a></li>
+        <li><a href="" class="btn btn-red">Contato</a></li>
     </ul>
 </nav>
 
@@ -98,7 +129,7 @@
     <input type="email" placeholder="campo tipo email">
     <input type="number" placeholder="campo tipo numer">
     <input type="date" placeholder="campo tipo data">
-    <button>Salvar</button>
+    <button class="btn btn-blue">Salvar</button>
 </form>
 
 
