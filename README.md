@@ -70,6 +70,9 @@ https://www.schoolofnet.com/curso-css-basico/
         .blue {
             color: blue;
         }
+        .yeloow{
+            color: yeloow;
+        }
     </style>
 </head>
 
@@ -113,6 +116,62 @@ https://www.schoolofnet.com/curso-css-basico/
 
 ## <a name="parte3">Prioridade dos seletores</a>
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        p {
+            color: green;
+        }
+
+        .yellow {
+            color: yellow;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        #red {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+<h1 >Sou título principal</h1>
+
+<p class="yellow" id="red">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, felis vel ultricies
+    facilisis, elit
+    justo
+    hendrerit.
+    Nulla facilisi.
+</p>
+
+<p> cursus eleifend. Phasellus in congue urna, in rhoncus elit. In ullamcorper justo nec lacus condimentum, at placerat
+    nisl venenatis. Quisque et diam sapien. Etiam consectetur commodo sapien. Praesent condimentum eget massa sed
+    hendrerit.
+    Nulla facilisi.
+</p>
+
+<p class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, felis vel ultricies
+    facilisis, elit justo
+    commodo diam, accumsan eleifend massa arcu et nulla. Integer facilisis dolor eget imperdiet commodo. Ut eu porta
+    risus. Quisque sit amet gravida justo. Nunc luctus scelerisque erat at vestibulum. Integer posuere sem sed lorem
+    hendrerit.
+    Nulla facilisi.
+</p>
+
+
+</body>
+
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
