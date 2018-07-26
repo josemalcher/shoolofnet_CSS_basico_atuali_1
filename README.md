@@ -244,6 +244,29 @@ https://www.schoolofnet.com/curso-css-basico/
 
 ## <a name="parte6">Estilizando formulários</a>
 
+```css
+    form{
+            border: dashed 2px green;
+            padding: 20px;
+        }
+        input{
+            display: block;
+            width: 100%;
+            margin: 0 0 10px 0;
+            border: 1px solid #abc;
+        }
+```
+
+```html
+<form action="">
+    <input type="text" placeholder="campo tipo texto">
+    <input type="email" placeholder="campo tipo email">
+    <input type="number" placeholder="campo tipo numer">
+    <input type="date" placeholder="campo tipo data">
+    <button>Salvar</button>
+</form>
+
+```
 
 
 [Voltar ao Índice](#indice)
