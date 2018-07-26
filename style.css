@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box; /* reset */
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+p {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.blue {
+    color: blue;
+}
+
+#red {
+    color: red;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a:hover {
+    background-color: indianred;
+    border: 3px solid red;
+}
+
+nav ul {
+    padding: 0;
+}
+
+form {
+    border: dashed 2px green;
+    padding: 20px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px 0;
+    border: 1px solid #abc;
+}
+
+.btn {
+    border-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 4px;
+    border-left-width: 2px;
+    border-right-width: 4px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn-red {
+    background-color: red;
+    border-color: darkred;
+}
+
+.btn-red:hover {
+    background-color: indianred;
+    border-color: red;
+}
+
+.btn-blue {
+    background-color: dodgerblue;
+    border-color: deepskyblue;
+}
+
+.btn-blue:hover {
+    background-color: lightskyblue;
+    border: 3px solid;
+    border-color: cornflowerblue;
+}

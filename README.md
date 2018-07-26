@@ -343,6 +343,14 @@ https://www.schoolofnet.com/curso-css-basico/
 
 ## <a name="parte8">Fontes e CSS externo</a>
 
+- https://fonts.google.com/
+
+```css
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+```
 
 [Voltar ao Índice](#indice)
 
