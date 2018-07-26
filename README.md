@@ -208,12 +208,42 @@ https://www.schoolofnet.com/curso-css-basico/
 
 ## <a name="parte5">Links</a>
 
+```css
+     background-color: red;
+            border: 3px solid darkred;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .nav ul li a:hover{
+            background-color: indianred;
+            border: 3px solid red;
+        }
+
+        nav ul{
+            padding: 0;
+        }
+```
+
+```html
+<nav class="nav">
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Sobre Nós</a></li>
+        <li><a href="">Produtos</a></li>
+        <li><a href="">Contato</a></li>
+    </ul>
+</nav>
+```
 
 [Voltar ao Índice](#indice)
 
 ---
 
 ## <a name="parte6">Estilizando formulários</a>
+
 
 
 [Voltar ao Índice](#indice)
