@@ -46,6 +46,66 @@ https://www.schoolofnet.com/curso-css-basico/
 
 ## <a name="parte2">Seletores</a>
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        h1 {
+            color: red;
+        }
+
+        #redh1 {
+            color: brown
+        }
+
+        p {
+            color: orchid;
+        }
+
+        .blue {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sou título principal</h1>
+
+    <h1 id="redh1">Sou título principal</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, felis vel ultricies facilisis, elit justo
+        commodo diam, accumsan eleifend massa arcu et nulla. Integer facilisis dolor eget imperdiet commodo. Ut eu porta
+        risus. Quisque sit amet gravida justo. Nunc luctus scelerisque erat at vestibulum. Integer posuere sem sed lorem
+        cursus eleifend. Phasellus in congue urna, in rhoncus elit. In ullamcorper justo nec lacus condimentum, at placerat
+        nisl venenatis. Quisque et diam sapien. Etiam consectetur commodo sapien. Praesent condimentum eget massa sed hendrerit.
+        Nulla facilisi.
+    </p>
+
+    <p class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, felis vel ultricies facilisis, elit justo
+        commodo diam, accumsan eleifend massa arcu et nulla. Integer facilisis dolor eget imperdiet commodo. Ut eu porta
+        risus. Quisque sit amet gravida justo. Nunc luctus scelerisque erat at vestibulum. Integer posuere sem sed lorem
+        cursus eleifend. Phasellus in congue urna, in rhoncus elit. In ullamcorper justo nec lacus condimentum, at placerat
+        nisl venenatis. Quisque et diam sapien. Etiam consectetur commodo sapien. Praesent condimentum eget massa sed hendrerit.
+        Nulla facilisi.
+    </p>
+
+    <p class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, felis vel ultricies facilisis, elit justo
+        commodo diam, accumsan eleifend massa arcu et nulla. Integer facilisis dolor eget imperdiet commodo. Ut eu porta
+        risus. Quisque sit amet gravida justo. Nunc luctus scelerisque erat at vestibulum. Integer posuere sem sed lorem
+        cursus eleifend. Phasellus in congue urna, in rhoncus elit. In ullamcorper justo nec lacus condimentum, at placerat
+        nisl venenatis. Quisque et diam sapien. Etiam consectetur commodo sapien. Praesent condimentum eget massa sed hendrerit.
+        Nulla facilisi.
+    </p>
+
+</body>
+
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
